@@ -1,58 +1,87 @@
-<a href="https://opensearch.org/">
-  <img src="https://opensearch.org/assets/img/opensearch-logo-themed.svg" height="64px">
-</a>
+# UniCORE.OpenSearch
 
-[![License](https://img.shields.io/badge/license-Apache%20v2-blue.svg)](https://github.com/opensearch-project/OpenSearch/blob/main/LICENSE.txt)
-[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=opensearch-foundation)](https://insights.linuxfoundation.org/project/opensearch-foundation)
-[![LFX Active Contributors](https://insights.linuxfoundation.org/api/badge/active-contributors?project=opensearch-foundation)](https://insights.linuxfoundation.org/project/opensearch-foundation)
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/6556/badge)](https://www.bestpractices.dev/projects/6556)
-[![Code Coverage](https://codecov.io/gh/opensearch-project/OpenSearch/branch/main/graph/badge.svg)](https://codecov.io/gh/opensearch-project/OpenSearch)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/opensearch-project/OpenSearch?sort=semver)
-[![Linkedin](https://img.shields.io/badge/Follow-Linkedin-blue)](https://www.linkedin.com/company/opensearch-project)
+**SCAFFOLD-ANCHOR repository — initial scaffold 2026-06-04.**
 
-- [Welcome!](#welcome)
-- [Project Resources](#project-resources)
-- [Code of Conduct](#code-of-conduct)
-- [Security](#security)
-- [License](#license)
-- [Copyright](#copyright)
-- [Trademark](#trademark)
+Full scaffolding, upstream-fork integration, and source-code work all pending a fresh dedicated kickoff arc. This initial commit exists to lock the repository's identity, licence position, and place in the UniCORE Sanity Check fleet so the work cannot be forgotten.
 
-## Welcome!
+Author: **Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom.**
+First commit: **2026-06-04 17:45 UTC.**
 
-OpenSearch is an open-source, enterprise-grade search and observability suite that brings order to unstructured data at scale.
+---
 
-## Project Resources
+## What this repository is
 
-* [Project Website](https://opensearch.org/)
-* [Downloads](https://opensearch.org/downloads/)
-* [Documentation](https://docs.opensearch.org/)
-* Need help? Try [Forums](https://discuss.opendistrocommunity.dev/) or [Slack](https://opensearch.org/slack/)
-* [Contributing to OpenSearch](CONTRIBUTING.md)
-* [Maintainer Responsibilities](MAINTAINERS.md)
-* [Release Management](RELEASING.md)
-* [Admin Responsibilities](ADMINS.md)
-* [Testing](TESTING.md)
-* [Security](SECURITY.md)
+`bryanunitek/UniCORE.OpenSearch` is the **OpenSearch** family member: On-prem-deployment-shape public gift surface. Documentation today; source code at certification.
 
-## Code of Conduct
+**Family purpose:** Open-source search + analytics engine (Elasticsearch safe fork) — full-text search for UniCORE.Law.
 
-The project's [Code of Conduct](CODE_OF_CONDUCT.md) outlines our expectations for all participants in our community, based on the [OpenSearch Code of Conduct](https://opensearch.org/code-of-conduct/). Please contact [conduct@opensearch.foundation](mailto:conduct@opensearch.foundation) with any additional questions or comments.
+---
 
-## Security
-If you discover a potential security issue in this project we ask that you notify OpenSearch Security directly via email to security@opensearch.org. Please do **not** create a public GitHub issue.
+## Upstream
 
-## License
+- **Upstream project:** https://github.com/opensearch-project/OpenSearch
+- **Upstream licence:** Apache-2.0
+- **Our relationship:** Fork-and-extend. Upstream codebase is consumed verbatim under its original licence; our additions sit on top under CC BY 4.0.
 
-This project is licensed under the [Apache v2.0 License](LICENSE.txt).
+The merge discipline that governs how this repository absorbs upstream changes is documented in [`UPSTREAM-MERGE-DISCIPLINE.md`](UPSTREAM-MERGE-DISCIPLINE.md).
 
-## Copyright
+---
 
-Copyright OpenSearch Contributors. See [NOTICE](NOTICE.txt) for details.
+## Platforms
 
-## Trademark
+Windows · Linux · macOS · iOS · Android
 
-OpenSearch is a registered trademark of LF Projects, LLC.
+---
 
-OpenSearch includes certain Apache-licensed Elasticsearch code from Elasticsearch B.V. and other source code. Elasticsearch B.V. is not the source of that other source code. ELASTICSEARCH is a registered trademark of Elasticsearch B.V.
+## Family — the four-repo pattern
 
+UniCORE.OpenSearch is published as a **four-repo family**:
+
+- `bryanunitek/UniCORE.OpenSearch` — public on-prem-deployment-shape gift surface ← **this repo**
+- `bryanunitek/UniSaaS.UniCORE.OpenSearch` — public SaaS-deployment-shape gift surface
+- `bryanunitek/UniCORE.OpenSearch-Claw` (private) — on-prem-shape working repository
+- `bryanunitek/UniSaaS.UniCORE.OpenSearch-Claw` (private) — SaaS-shape working repository
+
+---
+
+## Status
+
+**SCAFFOLD-ANCHOR** as of 2026-06-04. See [`STATUS.md`](STATUS.md) for the full status breakdown.
+
+---
+
+## Files in this scaffold commit
+
+- [`README.md`](README.md) — this file
+- [`LICENSE.md`](LICENSE.md) — UniCORE additions licence
+- [`STATUS.md`](STATUS.md) — scaffold-anchor status
+- [`UPSTREAM-MERGE-DISCIPLINE.md`](UPSTREAM-MERGE-DISCIPLINE.md) — canonical merge discipline
+- [`AI-AUTHORSHIP.md`](AI-AUTHORSHIP.md) — AI authorship disclosure
+
+---
+
+## Related repositories — UniCORE programme
+
+**Foundation triad (gift, public, CC BY 4.0):**
+- [`UniVERSE`](https://github.com/bryanunitek/UniVERSE) — programme
+- [`TrueAI`](https://github.com/bryanunitek/TrueAI) — Foundation (Nine Invariants)
+- [`UniCORE-AI`](https://github.com/bryanunitek/UniCORE-AI) — reference architecture (12 Levels)
+
+**Implementation reference (deployment-shape pair):**
+- [`UniCORE`](https://github.com/bryanunitek/UniCORE) — on-prem-shape
+- [`UniSaaS.UniCORE`](https://github.com/bryanunitek/UniSaaS.UniCORE) — SaaS-shape
+
+**Substrate-services layer (deployment-shape pair):**
+- [`UniCORE.GVB`](https://github.com/bryanunitek/UniCORE.GVB) — on-prem-shape
+- [`UniSaaS.UniCORE.GVB`](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB) — SaaS-shape
+
+---
+
+## Contact
+
+- **Public discussion:** [GitHub Discussions](https://github.com/bryanunitek/UniCORE.OpenSearch/discussions)
+- **Private contact / connection request:** [LinkedIn — Bryan Fred](https://www.linkedin.com/in/bryan-fred-02209753/)
+
+---
+
+*Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom. Public. Given, not sold. Irrevocable.*
